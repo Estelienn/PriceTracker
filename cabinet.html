@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Кабінет | PriceTracker</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body id="top">
+  <div class="header-border-top"></div>
+  <header>
+    <div>
+      <img src="images/photo_2025-10-16_16-24-13.jpg" alt="Логотип PriceTracker" width="50">
+      <h1 title="Сервіс для моніторингу цін на товари">PriceTracker</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="storemap.html">Карта магазинів</a></li>
+        <li><a href="cabinet.html" class="active">Кабінет</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="cabinet-auth">
+      <h2>Вхід або реєстрація</h2>
+      <form class="login-form" action="#" method="post">
+        <div class="auth-row">
+          <label for="login-email">Email:</label>
+          <input type="email" id="login-email" name="email" required placeholder="Ваш email">
+        </div>
+
+        <div class="auth-row">
+          <label for="login-password">Пароль:</label>
+          <div class="password-input-container">
+              <input type="password" id="login-password" name="password" required placeholder="••••••••">
+
+              <button type="button" id="togglePassword" class="password-toggle-btn" aria-label="Показати пароль">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5C17 19.5 21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5ZM12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17ZM12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12C15 10.34 13.66 9 12 9Z" fill="#666"/>
+                  </svg>
+              </button>
+          </div>
+        </div>
+
+        <div class="auth-row">
+          <button type="submit">Увійти</button>
+        </div>
+      </form>
+
+      <div class="cabinet-or"><span>або</span></div>
+
+      <div class="auth-row">
+        <button class="google-btn" type="button">
+           <span style="margin-right: 10px;">G</span> Увійти через Google
+        </button>
+      </div>
+      <p class="reg-link">Не маєте акаунту? <a href="#">Зареєструватись</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PriceTracker</p>
+  </footer>
+
+  <a href="#top" class="go-top-btn" aria-label="Вгору">
+    <svg width="50" height="50" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <circle cx="19" cy="19" r="19" fill="#3CB371"/>
+       <path d="M11 22L19 14L27 22" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+</body>
+</html>

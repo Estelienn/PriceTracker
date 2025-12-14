@@ -1,0 +1,55 @@
+@import url('variables.css');
+@import url('base.css');
+@import url('layout.css');
+@import url('components.css');
+
+body.dark-theme {
+    --color-bg: #1a1a1a;
+    --color-bg-light: #2c2c2c;
+    --color-text: #f0f0f0;
+    --color-text-light: #cccccc;
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.5);
+    --color-border: #444;
+}
+
+body.dark-theme header,
+body.dark-theme footer,
+body.dark-theme .contact-wrapper,
+body.dark-theme .stat-item,
+body.dark-theme .feature,
+body.dark-theme .store-item,
+body.dark-theme .stores-sidebar,
+body.dark-theme .browser-mockup {
+    background-color: #2c2c2c;
+    border-color: #444;
+    color: #f0f0f0;
+}
+
+body.dark-theme .hero-card {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+body.dark-theme .hero-card h2,
+body.dark-theme .hero-card p {
+    color: #f0f0f0 !important;
+}
+
+body.dark-theme header img {
+    border-radius: 12px;
+    border: 2px solid #444;
+    box-shadow: 0 0 10px rgba(255,255,255, 0.1);
+    filter: brightness(0.9);
+}
+
+body.dark-theme .nav-hover-js {
+    color: #3CB371 !important;
+}
+
+body.dark-theme input,
+body.dark-theme textarea {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+}

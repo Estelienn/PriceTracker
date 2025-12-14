@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Головна | PriceTracker</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <style>
+    body.dark-theme .hero-card {
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    body.dark-theme header img {
+        background-color: #fff !important;
+        border-radius: 50% !important;
+        padding: 5px !important;
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        border: 2px solid #3CB371 !important;
+        filter: none !important;
+        mix-blend-mode: normal !important;
+    }
+
+    body.dark-theme .hero-text h2,
+    body.dark-theme .hero-text p {
+        color: #fff !important;
+        text-shadow: none !important;
+    }
+
+    body.dark-theme .hero-accent {
+
+    }
+
+    body.dark-theme .hero-accent::after {
+        display: none !important;
+    }
+
+    body.dark-theme .main-search {
+        background: #2c2c2c !important;
+        border-color: #444 !important;
+    }
+    body.dark-theme .main-search input {
+        background-color: #2c2c2c !important;
+        color: #fff !important;
+        border: none !important;
+    }
+    body.dark-theme .main-search button {
+        border: 1px solid #3CB371 !important;
+    }
+
+    body.dark-theme {
+        background-color: #1a1a1a !important;
+        color: #f0f0f0 !important;
+    }
+    body.dark-theme header,
+    body.dark-theme footer,
+    body.dark-theme .contact-wrapper,
+    body.dark-theme .stores-sidebar {
+        background-color: #2c2c2c !important;
+        border-color: #444 !important;
+    }
+
+    body.dark-theme .nav-hover-js {
+        color: #3CB371 !important;
+        background-color: rgba(255,255,255,0.05) !important;
+    }
+  </style>
+</head>
+<body id="top">
+  <div class="header-border-top"></div>
+  <header>
+    <div>
+      <img src="images/photo_2025-10-16_16-24-13.jpg" alt="Логотип PriceTracker" width="50">
+      <h1 title="Сервіс для моніторингу цін на товари">PriceTracker</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Головна</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="storemap.html">Карта магазинів</a></li>
+        <li><a href="cabinet.html">Кабінет</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-card">
+      <div class="hero-text">
+        <h2>Ціни під контролем — <span class="hero-accent">завжди вигідно!</span></h2>
+        <p>Сервіс, що зорієнтує тебе у світі ціноутворення:<br>
+         моніторинг, вигідні пропозиції, інтуїтивний пошук і зручна аналітика.</p>
+
+        <p id="more-details" style="display: none; margin-top: 10px; color: #555;">
+            PriceTracker моніторить ціни у Сільпо, АТБ та Novus кожні 15 хвилин. Ми допомагаємо економити до 30% бюджету.
+        </p>
+        <button id="toggle-btn" style="margin-top: 10px; margin-bottom: 20px; padding: 8px 15px; border: 2px solid #3CB371; background: transparent; color: #3CB371; border-radius: 5px; cursor: pointer;">
+            Дізнатися більше
+        </button>
+        <form class="main-search">
+          <input type="text" placeholder="Знайти товар, категорію чи магазин...">
+          <button type="submit">Пошук</button>
+        </form>
+      </div>
+      <img class="hero-visual" src="images/гугугага.png" alt="PriceTracker Demo" />
+    </section>
+
+    <section class="features">
+      <h3>Можливості сервісу</h3>
+      <div class="features-list">
+        <div class="feature">
+          <span class="feature-icon">💬</span>
+          <span class="feature-title">Оновлення цін онлайн</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">🔎</span>
+          <span class="feature-title">Розумний пошук товарів</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">📈</span>
+          <span class="feature-title">Графіки вигідних цін</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">🏪</span>
+          <span class="feature-title">Покриття всіх платформ</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PriceTracker. Всі права захищено.</p>
+  </footer>
+
+  <a href="#top" class="go-top-btn" aria-label="Вгору">
+    <svg width="50" height="50" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <circle cx="19" cy="19" r="19" fill="#3CB371"/>
+       <path d="M11 22L19 14L27 22" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

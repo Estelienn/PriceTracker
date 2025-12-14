@@ -1,0 +1,27 @@
+/* Шрифти */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&family=Roboto+Mono:wght@500&display=swap');
+
+:root {
+    /* Кольори */
+    --color-primary: #3CB371;
+    --color-primary-dark: #2e8b57;
+    --color-accent: #FFD700;
+    --color-text: #2E2E2E;
+    --color-text-light: #666666;
+    --color-bg: #FFFFFF;
+    --color-bg-light: #F9F9F9;
+    --color-border: #E0E0E0;
+    --color-error: #FF5F56;
+
+    /* Шрифти */
+    --font-main: 'Inter', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+    --font-price: 'Roboto Mono', monospace;
+
+    /* Розміри */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+    --container-width: 1200px;
+}
